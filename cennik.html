@@ -14,7 +14,7 @@
 <body>
 
     <div class="container">
-        <header>
+        <header class="glowna">
             <h1>Myjnia ręczna Błysk</h1>
         </header>
 
@@ -22,22 +22,61 @@
             <a href="#">Home</a>
             <a href="#">Cennik</a>
         </nav>
+        <section>
+            <header class="rezerwacja">
+                <h3>
+                    <p> na godzinę - rezerwuj termin mycia samochodu.
+                        Masz mało czasu? Nie lubisz czekać?
+                        Zarezerwuj mycie pojazdu na konkretną godzinę</p>
+                </h3>
+            </header>
+        </section>
 
-        <header class="rezerwacja">
-            <h3>
-                <p> na godzinę - rezerwuj termin mycia samochodu.
-                    Masz mało czasu? Nie lubisz czekać?
-                    Zarezerwuj mycie pojazdu na konkretną godzinę</p>
-            </h3>
-        </header>
+        <main>
+            <header class="oblicz">
+                <h2>Oblicz koszt usługi</h2>
+            </header>
+            <form>
+                Podaj imię: <input type="text" placeholder="wpisz swoje imię" required>
 
-        <header class="oblicz">
-            <h2>Oblicz koszt usługi</h2>
-        </header>
-        <form>
 
-        </form>
+                <legend>
+                    <fieldset>Usługi
+                        Mycie zewnętrzne 30zł <input type="checkbox">
+                        Suszenie 10zł<input type="checkbox">
+                        Woskowanie 15zł<input type="checkbox">
+                        Odkurzanie 10zł<input type="checkbox">
+                    </fieldset>
+                </legend>
 
+                <legend>
+                    <fieldset>Rodzaj pojazdu
+                        <select>
+                            <option>Mały</option>
+                            <option>Średni (+10%)</option>
+                            <option>Van (+20%)</option>
+                            <option>Bus (+45%)</option>
+                        </select>
+                    </fieldset>
+                </legend>
+
+                <legend>
+                    <fieldset>Karta stałego klienta
+                        Brak <input type="radio" checked>
+                        Srebrna (-5%) <input type="radio">
+                        Złota (-15%)<input type="radio">
+                    </fieldset>
+                </legend>
+
+                <input type="reset" value="Wyczyść">
+                <input type="submit" value="Oblicz">
+
+
+            </form>
+
+
+            <img src="hand_m.jpg" alt="mycie rąk">
+        </main>
 
 
 

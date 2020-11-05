@@ -1,1 +1,1 @@
-# Myjnia
+# Myjnia Konrad Szroter
