@@ -65,6 +65,26 @@ form{
 
 }
 
+form>legend{
+    margin-inline: 50%;
+    margin-bottom: 30%;
+}
+
+label{
+    margin: 0.3em;
+}
+
+
+
+.przycisk{
+    width:6em;
+    margin:50%;
+}
+
+main>p{
+    color: hsl(0, 100%, 50%);
+    font-size: 150%;
+}
 
 
 footer{
