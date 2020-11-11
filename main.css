@@ -10,20 +10,29 @@ body{
 }
 
 .container{
-    width: 300px;
+   
     text-align: center;
     justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    
 }
+
+
 
 .glowna{
     height: 100px;
+    width: 100%;
     margin-top: 1em;
     margin-bottom: 1em;
-    border: 1px solid hsl(240, 50%, 50%);
+    border-bottom: 1px solid hsl(240, 50%, 50%);
+    border-top: 1px solid hsl(240, 50%, 50%);
     text-align: center;
     color: hsl(240, 50%, 50%);
-    width: 60%;
-   background-color:hsl(240, 50%, 90%);
+    
+   
+   
+   
 }
 .A{
     
@@ -33,13 +42,10 @@ body{
 .B{
     text-transform: uppercase;
     font-size: 130%;
-    letter-spacing: 30%;
+    letter-spacing: 0.3em;
 }
 
-nav{
-    width: 30%;
-    background-color: hsl(240, 50%, 90%);
-}
+
 
 a{
     width: 8em;
@@ -48,6 +54,7 @@ a{
     color: hsl(240, 50%, 90%);
     background-color: hsl(240, 50%, 50%);
     text-decoration: none;
+    border-radius: 0.2em;
     
 }
 a:hover{
@@ -55,9 +62,36 @@ a:hover{
     color: hsl(240, 50%, 50%);
 }
 
+main, section{
+    
+    margin: 1.0em;
+    text-shadow:2.5px 2.5px hsl(240, 50%, 50%) ;
+    background-color: hsl(240, 50%, 90%) ;
+    border-radius: 1.0em;
+    
+}
+
+
 main {
 width: 60%;
-word-spacing: 200%;
+display: flex;
+flex-wrap: wrap;
+order: 3;
+
+
+
+}
+section{
+    order: 3;
+    width: 30%;
+}
+
+
+
+h2{
+    word-spacing: 0.5em;
+   
+
 }
 
 form{
@@ -66,8 +100,8 @@ form{
 }
 
 form>legend{
-    margin-inline: 50%;
-    margin-bottom: 30%;
+    margin: 0.5em;
+    margin-bottom: 0.3em;
 }
 
 label{
@@ -77,8 +111,8 @@ label{
 
 
 .przycisk{
-    width:6em;
-    margin:50%;
+    width:6.0em;
+    margin: 0.5em;
 }
 
 main>p{
@@ -88,10 +122,15 @@ main>p{
 
 
 footer{
+    display: flex;
     height: 100px;
     border: solid 1px hsl(240, 50%, 50%);
     text-align: center;
     justify-content: center;
+    align-items: center;
+    border-radius: 1.0em;
+    order: 5;
+    width: 100%;
 
 }
 
